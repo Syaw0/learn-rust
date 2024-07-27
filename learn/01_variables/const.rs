@@ -3,6 +3,12 @@
 // ! Don't forget , we should always annotate if we are using `const`
 const GLOBAL_KEY: i32 = 112233;
 
+// * It's better to use UPPERCASE naming for `const` variables
+// * Note that all the constant with `const` calculated in `compile time`
+// * not in the `run time` so we always must assign a expression to `const`
+// * if it's could calculated in `compile`!!
+const DELAY_TIME: i32 = 60 * 60 * 2;
+
 fn main() {
     // * Note that we can use global constant variable inside almost
     // * any scopes!
